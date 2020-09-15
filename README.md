@@ -17,8 +17,8 @@ Project is created with:
 * Python - **pandas, gensim, Tokenizer**
 * GetOldTweets3
 * Topic-Modelling
-  *Unsupervised LDA
-  *Supervised   CorEx
+  -Unsupervised LDA
+  -Supervised   CorEx
 * Vader
 
 
