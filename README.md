@@ -44,17 +44,19 @@ A machine learning model is built to classify the users into organization or ind
 ## DATA
 The dataset collection occured in two phases-
 1. Data was collected using GetoldTweets3 (https://pypi.org/project/GetOldTweets3/), an open source API.
-   - Why we chose this package? 
+   * Why we chose this package? 
+   
      Twitter Official API has the bother limitation of time constraints, you can't get older tweets than a week. 
-   - On a high level note, Tweets are fetched using the hashtags #COVID19, #coronasymptoms, #coronatreatment, #coronaprevention, etcetra. 
-   - STEPS TO USE THE GETOLDTWEETS3 PACKAGE:
+   * On a high level note, Tweets are fetched using the hashtags #COVID19, #coronasymptoms, #coronatreatment, #coronaprevention, etcetra. 
+   * STEPS TO USE THE GETOLDTWEETS3 PACKAGE:
+   
      Using GetOldTweets3, you can scrape tweets using a variety of search parameters such as start/ end dates, username(s), text query search, and reference location area. 
 ![alt text](GOTcriteria.PNG) 
      
 2. Data available from open access IEEE data source (https://ieee-dataport.org/open-access/coronavirus-covid-19-tweets-dataset)
-   -  tweets available are from using 90+ different keywords and hashtags that are commonly used while referencing the pandemic
-
-
+   * tweets available are from using 90+ different keywords and hashtags that are commonly used while referencing the pandemic
+   * https://programminghistorian.org/en/lessons/beginners-guide-to-twitter-data - The link explains clearly how to
+   * ![alt text](Hydrator-resize.PNG) 
 dataset was obtained from Darden Business Publishing - University of Virginia.
 
 
