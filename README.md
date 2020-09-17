@@ -58,7 +58,7 @@ The dataset collection occured in two phases-
    * https://programminghistorian.org/en/lessons/beginners-guide-to-twitter-data - The link explains clearly how to
    
 ![alt text](Hydratorresize.PNG) 
-dataset was obtained from Darden Business Publishing - University of Virginia.
+
 
 
 
