@@ -7,6 +7,7 @@
 * [Background](#background)
 * [Data Source](#Data-source)
 * [Data](#data)
+* [Data Pre-processing](#Data-Pre-processing) 
 * [Implementation](#implementation)
 * [Results](#results)
 * [Conclusion](#conclusion)
@@ -41,12 +42,13 @@ This project focuses on finding the shift in the public opinion about the corona
 A machine learning model is built to classify the users into organization or individual as we wanted to study only the individual's opinion and remove the bias added by the organizations. Implemented rule-based model Vader to obtain the sentiments of the topics over the weeks. 
 
 
-## DATA
+## DATA SOURCE 
 The dataset collection occured in two phases-
 1. Data was collected using GetoldTweets3 (https://pypi.org/project/GetOldTweets3/), an open source API.
    * Why we chose this package? 
-   
+  
      Twitter Official API has the bother limitation of time constraints, you can't get older tweets than a week. 
+     
    * On a high level note, Tweets are fetched using the hashtags #COVID19, #coronasymptoms, #coronatreatment, #coronaprevention, etcetra. 
    * STEPS TO USE THE GETOLDTWEETS3 PACKAGE:
    
@@ -55,9 +57,24 @@ The dataset collection occured in two phases-
      
 2. Data available from open access IEEE data source (https://ieee-dataport.org/open-access/coronavirus-covid-19-tweets-dataset)
    * tweets available are from using 90+ different keywords and hashtags that are commonly used while referencing the pandemic
-   * https://programminghistorian.org/en/lessons/beginners-guide-to-twitter-data - The link explains clearly how to
+   * The link explains clearly how to hydrate the data: https://programminghistorian.org/en/lessons/beginners-guide-to-twitter-data
+   * Load the text file with the IDs after downloading the IEEE website or any text files if you want to fetch data using the Hydrator.
+  
+     ![alt text](Hydratornew.png)
+   * Save the CSV file with a new name. 
    
-     ![alt text](Hydratornew.png) 
+   * On a side note, Topic modelling is different from Machine Learning modeling in terms of data collection, that we did not want to introduce any bias, so no stratified  
+     sampling was done. We are mostly intersted in the topics/themes rather than classifying them. This step was different from the usual data collection methodology in building 
+     Machine Learning models. 
+     
+     
+## DATA 
+* The data set contains data for Jan 1, 2020- March 31, 2020. Collected more than million tweets.
+* The data contains null values in the demographics. 
+
+## DATA PRE-PROCESSING
+* 
+     
 
 
 
