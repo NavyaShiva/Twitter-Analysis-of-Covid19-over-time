@@ -56,7 +56,7 @@ The dataset collection occured in two phases-
 2. Data available from open access IEEE data source (https://ieee-dataport.org/open-access/coronavirus-covid-19-tweets-dataset)
    * tweets available are from using 90+ different keywords and hashtags that are commonly used while referencing the pandemic
    * https://programminghistorian.org/en/lessons/beginners-guide-to-twitter-data - The link explains clearly how to
-![alt text](Hydrator-resize.PNG) 
+![alt text](Hydratorresize.PNG) 
 dataset was obtained from Darden Business Publishing - University of Virginia.
 
 
