@@ -63,7 +63,7 @@ The dataset collection occured in two phases-
      ![alt text](Hydratornew.png)
    * Save the CSV file with a new name. 
    
-   * On a side note, Topic modelling is different from Machine Learning modeling in terms of data collection, that we did not want to introduce any bias, so no stratified  
+   * On a side note, Topic modelling is different from Machine Learning modeling in terms of data collection, that we did not want to introduce any bias, so no stratified
      sampling was done. We are mostly intersted in the topics/themes rather than classifying them. This step was different from the usual data collection methodology in building 
      Machine Learning models. 
      
