@@ -73,3 +73,4 @@ The data for the project was collected manually. First a cohort of 150 individua
 The data was pulled using https://github.com/instaloader/instaloader for all the individuals. The project only deals with instagram accounts which are public as private accounts cannot be scraped without becoming friends with them on Instagram.
 
 Emoji analysis from Text
+skfk
