@@ -93,12 +93,22 @@ The dataset collection occured in two phases-
   
   ![alt text](sampleoutputresize.png)
    
+ 
 ## IMPLEMENTATION
 * Once we get the sense of the words distribution in different topics, through the output of Unsupervised LDA as well as through research on CDC website, taking the domain
   expertise, and by understanding the topics that are occuring at that time, I created the anchor words around each topic. Broadly there were 26 topics but they could be clubbed
   toghther as follows-
 
   ![alt text](anchorwordsresize.png)
+  
+* Implemented CorEx topic modelling using the anchor words. 
+* Repeated the same over the weeks, and found how the opinion or the words associated with a particular topic changes over the weeks. 
+* In the final step, I found the sentiment of each tweet and analysed how the sentiment is changing over the weeks for all the topics. 
+   
+  ![alt text](topicsentimentresize.png)
+
+## EVALUATION METRICS
+
 
 
   
