@@ -85,7 +85,7 @@ The dataset collection occured in two phases-
 ## EXPLORATORY DATA ANALYSIS 
 * To get the sense of the words and their distribution, I ran the Unsupervised LDA and kept the topics as 50 initially. Using the library 'pyLDAvis', analyzed the topics that 
   are correlated and combined with the topics near to get the good seperation of the topic cloud. This ensures we get good seperation of topics.
-
+   ![alt text](sampleoutputresize.png)
 ## 
   
 
