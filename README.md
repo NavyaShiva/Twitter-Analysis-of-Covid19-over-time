@@ -14,18 +14,6 @@
 * [Conclusion](#conclusion)
 * [References](#references)
 
-## TECHNOLOGIES
-Project is created with:
-
-* Python - **pandas, gensim, Tokenizer**
-
-## ALGORITHMS
-* Sentiment Analysis
-* Naive-Bayes
-* GetOldTweets3
-* Topic-Modelling - **Unsupervised LDA, Supervised CorEx**
-* Vader
-
 
 ## BACKGROUND
 The COVID‑19 pandemic, also known as the coronavirus pandemic, is an ongoing pandemic of coronavirus disease 2019 (COVID‑19) caused by severe acute respiratory syndrome coronavirus 2 (SARS‑CoV‑2).[1] The disease was first identified in December 2019 in Wuhan, China.[4] The World Health Organization declared the outbreak a Public Health Emergency of International Concern on 30 January 2020 and a pandemic on 11 March.
@@ -37,8 +25,21 @@ So far an exploratory study concerning what people are tweeting about and the se
 This project focuses on finding the shift in the public opinion about the coronavirus disease over time based on the texts from the social media platform, Twitter. 
 A machine learning model is built to classify the users into organization or individual as we wanted to study only the individual's opinion and remove the bias added by the organizations. Implemented rule-based model Vader to obtain the sentiments of the topics over the weeks. 
 
+## TECHNOLOGIES
+Project is created with:
+* Python - **pandas, gensim, Tokenizer**
 
-## DATA SOURCE 
+## ALGORITHMS
+* Sentiment Analysis
+* Naive-Bayes
+* GetOldTweets3
+* Topic-Modelling - **Unsupervised LDA, Supervised CorEx**
+* Vader
+
+## DATA COLLECTION
+* The data set contains data for Jan 1, 2020- March 31, 2020. Collected more than million tweets.
+* The data contains null values in the demographics. 
+
 The dataset collection occured in two phases-
 1. Data was collected using GetoldTweets3 (https://pypi.org/project/GetOldTweets3/), an open source API.
    * Why we chose this package? 
@@ -65,11 +66,6 @@ The dataset collection occured in two phases-
      Machine Learning models. 
      
      
-## DATA 
-* The data set contains data for Jan 1, 2020- March 31, 2020. Collected more than million tweets.
-* The data contains null values in the demographics. 
-
-
 ## DATA PRE-PROCESSING
 * Built a Naive-Bayes classifier by manually labeling the data into organization or individual. The model predicted with an accuracy of 80%. 
 
