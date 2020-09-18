@@ -74,8 +74,14 @@ The dataset collection occured in two phases-
 * The data set contains data for Jan 1, 2020- March 31, 2020. Collected more than million tweets.
 * The data contains null values in the demographics. 
 
+
 ## DATA PRE-PROCESSING
 * Built a Naive-Bayes classifier by manually labeling the data into organization or individual. The model predicted with an accuracy of 80%. 
+
+  DATA CLEANING: 
+* Tokenizing, removal of stop words, removal of links, stemming was done for all the tweets data
+* To remove unnecesaary words, only few POS tags are needed, I researched and included only 'NN', 'JJ', 'VB', 'RB', 'NNP', 'NNPS'
+* Removed the retweets by dropping the duplicates. 
   - Manually labeled the users into organization and individual by searching the twitter handle, as well as by following the below rules
   - Tweets which has pronouns like I, me, you, etcetra are classified as individual 
   - Tweets with usernames containing health, WHO, CDC were classified as Organization
@@ -101,10 +107,7 @@ The dataset collection occured in two phases-
   
 
   
-  DATA CLEANING: 
-* Tokenizing, removal of stop words, removal of links, stemming was done for all the tweets data
-* To remove unnecesaary words, only few POS tags are needed, I researched and included only 'NN', 'JJ', 'VB', 'RB', 'NNP', 'NNPS'
-* Removed the retweets by dropping the duplicates. 
+
 
 
 
