@@ -23,9 +23,7 @@ Project is created with:
 * Sentiment Analysis
 * Naive-Bayes
 * GetOldTweets3
-* Topic-Modelling
-  -Unsupervised LDA
-  -Supervised CorEx
+* Topic-Modelling - **Unsupervised LDA, Supervised CorEx**
 * Vader
 
 
@@ -52,7 +50,7 @@ The dataset collection occured in two phases-
    
      Using GetOldTweets3, you can scrape tweets using a variety of search parameters such as start/ end dates, username(s), text query search, and reference location area. 
      
-![alt text](GOTcriteria.PNG) 
+    ![alt text](GOTcriteria.PNG) 
      
 2. Data available from open access IEEE data source (https://ieee-dataport.org/open-access/coronavirus-covid-19-tweets-dataset)
    * tweets available are from using 90+ different keywords and hashtags that are commonly used while referencing the pandemic
@@ -108,32 +106,23 @@ The dataset collection occured in two phases-
   ![alt text](topicsentimentresize.png)
 
 ## EVALUATION METRICS
+ * Accuracy is used to measure the output of the Naive Bayes classifier to classify the tweets into organization or individual. 
+ * For the topic modeling part, there is no evaluation metric. 
+ 
+## CONCLUSION
+* Results obtained were based on collected data over weeks. I found that people were discussing most about topics like Outbreak: 95928, 
+  Spread: 91164, Racism: 85426, Travel ban: 71360, Policy changes: 66725. Topics which remained underrepresented were Alternate causes: 46123, Drug and Medicine: 41163, 
+  Shortage:44204. I also observed that Negative sentiment contributes the most in overall sentiment with 643028 tweets. The Overall sentiment was jumbled up in the 
+  starting weeks and clear-cut separation was observed in later weeks as in we could easily say that negative sentiments were rising up and crossing neutral and positive.
 
-
-
-  
-
-  
-
-
-
-
-     
-
-
-
+## REFERENCES
+ * Michele Miller MS, Wright State University: What Are People Tweeting about Zika? An Exploratory Study Concerning Symptoms, Treatment, Transmission, and Prevention
+ * Zach Wood-Doughty, Praateek Mahajan, Mark Dredze:  Johns Hopkins or johnny-hopkins: Classifying Individuals versus Organizations on Twitter
 
 
 ## CHALLENGES AND FUTURE WORK 
-
 * Data collection using Getoldtweets3 has limitations on it. The maximum tweets 'GetoldTweets3' allows every hit is 10,000. Writing code by running on the VM's should 
-  ensure parallel processing. I intend to work on this and re-implement it. 
+  ensure parallel processing and faster computation. I intend to work on this and re-implement it. 
 * Since, bots account for nearly 50% of the users, it is very important to identify and remove the bots before we identify the latent topics the general people are discussing 
   about. We couldn't employ this into our analysis. I am currently working on it.   
 
-The data for the project was collected manually. First a cohort of 150 individuals were selected. After setting constraints on the minimum number of instagram posts, stratified sampling with age and gender a group of 50 depressed individuals(self-reported on instagram) were selected and analyzed. Another set of 50 non-depressed individuals were identified using matched pairs methodogy. With the data being sensitive to the users, I am not sharing the data on GitHub.
-
-The data was pulled using https://github.com/instaloader/instaloader for all the individuals. The project only deals with instagram accounts which are public as private accounts cannot be scraped without becoming friends with them on Instagram.
-
-Emoji analysis from Text
-skfk
