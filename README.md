@@ -73,7 +73,22 @@ The dataset collection occured in two phases-
 * The data contains null values in the demographics. 
 
 ## DATA PRE-PROCESSING
-* 
+* Built a Naive-Bayes classifier by manually labeling the data into organization or individual. The model predicted with an accuracy of 80%. 
+  - Manually labeled the users into organization and individual by searching the twitter handle, as well as by following the below rules
+  - Tweets which has pronouns like I, me, you, etcetra are classified as individual 
+  - Tweets with usernames containing health, WHO, CDC were classified as Organization
+  - Manually re-iterated to check the individual profiles on twitter for classification
+
+* Since, the twitter removes the fake accounts (not sure if they are bot or not), it throws error when we try to fetch the tweets using GetoldTweets3 for that username, hence
+  programatically removed those users before further analysis. 
+  
+  DATA CLEANING: 
+* Tokenizing, removal of stop words, removal of links, stemming was done for all the tweets data
+* To remove unnecesaary words, only few POS tags are needed, I researched and included only 'NN', 'JJ', 'VB', 'RB', 'NNP', 'NNPS'
+* Removed the retweets by dropping the duplicates. 
+
+
+
      
 
 
@@ -84,7 +99,8 @@ The dataset collection occured in two phases-
 
 * Data collection using Getoldtweets3 has limitations on it. The maximum tweets 'GetoldTweets3' allows every hit is 10,000. Writing code by running on the VM's should 
   ensure parallel processing. I intend to work on this and re-implement it. 
-  
+* Since, bots account for nearly 50% of the users, it is very important to identify and remove the bots before we identify the latent topics the general people are discussing 
+  about. We couldn't employ this into our analysis. I am currently working on it.   
 
 The data for the project was collected manually. First a cohort of 150 individuals were selected. After setting constraints on the minimum number of instagram posts, stratified sampling with age and gender a group of 50 depressed individuals(self-reported on instagram) were selected and analyzed. Another set of 50 non-depressed individuals were identified using matched pairs methodogy. With the data being sensitive to the users, I am not sharing the data on GitHub.
 
