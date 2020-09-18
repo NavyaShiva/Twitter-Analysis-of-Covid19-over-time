@@ -54,6 +54,7 @@ The dataset collection occured in two phases-
    * STEPS TO USE THE GETOLDTWEETS3 PACKAGE:
    
      Using GetOldTweets3, you can scrape tweets using a variety of search parameters such as start/ end dates, username(s), text query search, and reference location area. 
+     
 ![alt text](GOTcriteria.PNG) 
      
 2. Data available from open access IEEE data source (https://ieee-dataport.org/open-access/coronavirus-covid-19-tweets-dataset)
@@ -87,12 +88,14 @@ The dataset collection occured in two phases-
   are correlated and combined with the topics near to get the good seperation of the topic cloud. This ensures we get good seperation of topics.
   The following shows an example: 
   
-   ![alt text](sampleoutputresize.png)
+  ![alt text](sampleoutputresize.png)
    
 ## IMPLEMENTATION
-* Once we get the sense of the words distribution in different topics, through the output of Unsupervised LDA as well as through research on CDC website, taking the domain expertise, and by understanding the topics that are occuring at that time, I created the anchor words around each topic. Broadly there were 26 topics but they could be clubbed toghther as follows-
+* Once we get the sense of the words distribution in different topics, through the output of Unsupervised LDA as well as through research on CDC website, taking the domain
+  expertise, and by understanding the topics that are occuring at that time, I created the anchor words around each topic. Broadly there were 26 topics but they could be clubbed
+  toghther as follows-
 
-![alt text](anchorwords.png)
+  ![alt text](anchorwordsresize.png)
 
 
   
