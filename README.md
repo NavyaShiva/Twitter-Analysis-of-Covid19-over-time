@@ -1,18 +1,17 @@
 # Twitter-Analysis-of-Covid19-over-time
 
 ### TABLE OF CONTENTS
-* [Objective](#objective)
-* [Technologies](#technologies)
-* [Algorithms](#algorithms)
 * [Background](#background)
-* [Data Source](#Data-source)
-* [Data](#data)
+* [Objective](#objective)
+* [Technologies and Algorithms](#technologies-and-algorithms)
+* [Data Collection](#data-collection)
 * [Data Pre-processing](#Data-Pre-processing) 
 * [Exploratory Data Analysis](#Explorator-Data-Analysis)
 * [Implementation](#implementation)
-* [Results](#results)
+* [EValuation metrics](#EValuation-metrics)
 * [Conclusion](#conclusion)
 * [References](#references)
+* [Challenges and Futurework](#Challenges-and-Futurework)
 
 
 ## BACKGROUND
@@ -25,11 +24,9 @@ So far an exploratory study concerning what people are tweeting about and the se
 This project focuses on finding the shift in the public opinion about the coronavirus disease over time based on the texts from the social media platform, Twitter. 
 A machine learning model is built to classify the users into organization or individual as we wanted to study only the individual's opinion and remove the bias added by the organizations. Implemented rule-based model Vader to obtain the sentiments of the topics over the weeks. 
 
-## TECHNOLOGIES
+## TECHNOLOGIES AND ALGORITHMS
 Project is created with:
 * Python - **pandas, gensim, Tokenizer**
-
-## ALGORITHMS
 * Sentiment Analysis
 * Naive-Bayes
 * GetOldTweets3
