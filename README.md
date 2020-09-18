@@ -18,18 +18,15 @@
 Project is created with:
 
 * Python - **pandas, gensim, Tokenizer**
-* GetOldTweets3
-* Topic-Modelling
-
-  -Unsupervised LDA
-  
-  -Supervised CorEx
-* Vader
-
 
 ## ALGORITHMS
 * Sentiment Analysis
 * Naive-Bayes
+* GetOldTweets3
+* Topic-Modelling
+  -Unsupervised LDA
+  -Supervised CorEx
+* Vader
 
 
 ## BACKGROUND
