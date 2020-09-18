@@ -82,7 +82,7 @@ The dataset collection occured in two phases-
   are correlated and combined with the topics near to get the good seperation of the topic cloud. This ensures we get good seperation of topics.
   The following shows an example: 
   
-  ![alt text](sampleoutputresize.png)
+  ![alt text](sampleoutput.png)
    
  
 ## IMPLEMENTATION
@@ -90,13 +90,13 @@ The dataset collection occured in two phases-
   expertise, and by understanding the topics that are occuring at that time, I created the anchor words around each topic. Broadly there were 26 topics but they could be clubbed
   toghther as follows-
 
-  ![alt text](anchorwordsresize.png)
+  ![alt text](anchorwords.png)
   
 * Implemented CorEx topic modelling using the anchor words. 
 * Repeated the same over the weeks, and found how the opinion or the words associated with a particular topic changes over the weeks. 
 * In the final step, I found the sentiment of each tweet and analysed how the sentiment is changing over the weeks for all the topics. 
    
-  ![alt text](topicsentimentresize.png)
+  ![alt text](topicsentiment.png)
 
 ## EVALUATION METRICS
  * Accuracy is used to measure the output of the Naive Bayes classifier to classify the tweets into organization or individual. 
