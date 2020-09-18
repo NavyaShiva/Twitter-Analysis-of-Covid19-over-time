@@ -1,5 +1,7 @@
 # Twitter-Analysis-of-Covid19-over-time
 
+![alt text](covidontwitternew.PNG) 
+
 ### TABLE OF CONTENTS
 * [Background](#background)
 * [Objective](#objective)
