@@ -86,10 +86,14 @@ The dataset collection occured in two phases-
 * To get the sense of the words and their distribution, I ran the Unsupervised LDA and kept the topics as 50 initially. Using the library 'pyLDAvis', analyzed the topics that 
   are correlated and combined with the topics near to get the good seperation of the topic cloud. This ensures we get good seperation of topics.
   The following shows an example: 
+  
    ![alt text](sampleoutputresize.png)
    
 ## IMPLEMENTATION
-* Once we get the sense of the words distribution in different topics, through the output of Unsupervised LDA as well as through research on CDC website, taking the domain expertise, and by understanding the topics that are occuring at that time, I created the anchor words around each topic. Broadly there were 26 topics but they could be clubbed toghther as follows: 
+* Once we get the sense of the words distribution in different topics, through the output of Unsupervised LDA as well as through research on CDC website, taking the domain expertise, and by understanding the topics that are occuring at that time, I created the anchor words around each topic. Broadly there were 26 topics but they could be clubbed toghther as follows-
+
+![alt text](anchorwords.png)
+
 
   
 
