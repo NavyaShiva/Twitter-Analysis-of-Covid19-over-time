@@ -8,6 +8,7 @@
 * [Data Source](#Data-source)
 * [Data](#data)
 * [Data Pre-processing](#Data-Pre-processing) 
+* [Exploratory Data Analysis](#Explorator-Data-Analysis)
 * [Implementation](#implementation)
 * [Results](#results)
 * [Conclusion](#conclusion)
@@ -22,7 +23,7 @@ Project is created with:
 
   -Unsupervised LDA
   
-  -Supervised   CorEx
+  -Supervised CorEx
 * Vader
 
 
@@ -78,9 +79,16 @@ The dataset collection occured in two phases-
   - Tweets which has pronouns like I, me, you, etcetra are classified as individual 
   - Tweets with usernames containing health, WHO, CDC were classified as Organization
   - Manually re-iterated to check the individual profiles on twitter for classification
-
-* Since, the twitter removes the fake accounts (not sure if they are bot or not), it throws error when we try to fetch the tweets using GetoldTweets3 for that username, hence
+* Since, the twitter removes the fake accounts (not sure if they were bots or not), it throws error when we try to fetch the tweets using GetoldTweets3 for that username, hence
   programatically removed those users before further analysis. 
+  
+## EXPLORATORY DATA ANALYSIS 
+* To get the sense of the words and their distribution, I ran the Unsupervised LDA and kept the topics as 50 initially. Using the library 'pyLDAvis', analyzed the topics that 
+  are correlated and combined with the topics near to get the good seperation of the topic cloud. This ensures we get good seperation of topics.
+
+## 
+  
+
   
   DATA CLEANING: 
 * Tokenizing, removal of stop words, removal of links, stemming was done for all the tweets data
