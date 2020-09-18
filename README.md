@@ -1,6 +1,6 @@
 # Twitter-Analysis-of-Covid19-over-time
 
-![alt text](covidontwitternew.JPG) 
+![alt text](covidontwitternew.jpg) 
 
 ### TABLE OF CONTENTS
 * [Background](#background)
